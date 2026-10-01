@@ -2,7 +2,7 @@
 
 This repository is a fork of
 [FlowDPS: Flow-Driven Posterior Sampling for Inverse Problems (ICCV2025)](https://github.com/FlowDPS-Inverse/FlowDPS)
-with proximal optimization from **[AACV2026] Local Gaussian Conditioning and
+with proximal optimization from **[ACCV2026] Local Gaussian Conditioning and
 Covariance-Scaled Trust Regions for Flow Matching**.
 
 The default solver in `solve.py` refines each predicted clean latent by minimizing
