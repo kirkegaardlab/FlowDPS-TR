@@ -1,3 +1,9 @@
+"""Original FlowDPS model integration and baseline samplers.
+
+FlowDPS-TR adds proximal optimization in solve.py from [AACV2026]
+Local Gaussian Conditioning and Covariance-Scaled Trust Regions for Flow Matching.
+"""
+
 from typing import List, Tuple, Optional
 import math
 import torch
@@ -509,4 +515,3 @@ class SD3PSLD(SD3Euler):
         with torch.no_grad():
             img = self.decode(z)
         return img
-

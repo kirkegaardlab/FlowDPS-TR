@@ -14,7 +14,7 @@ from utils.utils_sisr import pre_calculate_FK, pre_calculate_nonuniform
 from torch.fft import fft2, ifft2
 
 
-from motionblur.motionblur import Kernel
+from utils.motionblur import Kernel
 
 # =================
 # Operation classes
